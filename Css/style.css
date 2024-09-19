@@ -1,0 +1,395 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+#main {
+    background: #002;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+}
+span{
+    color: #DC00A5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    border-bottom: 2px solid #DC00A5;
+    
+    
+   
+}
+nav h2 {
+    color: azure;
+}
+nav ul li {
+padding: 15px 20px;
+    color: azure;
+    display: inline-block;
+    list-style: none;
+   
+}
+
+ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    transition: 0.4s ease;
+    border-radius: 25px;
+    
+}
+
+ ul li a:hover{
+color: #DC00A5;
+} 
+.logo{
+    font-weight: bolder; 
+    font-size: 37px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+.info {
+    color: azure;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 55px;
+    font-family: serif;
+}
+
+.playwrite-cu-small {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+        font-style: normal;
+    }
+
+ .playfair-display-first{
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 900px;
+        font-style: normal;
+      }
+      
+      
+
+.info a {
+    background-color: #DC00A5;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.info a:hover{
+    background-color: transparent;
+    border:2px solid #DC00A5 ;
+    cursor: pointer
+}
+ .image {
+    max-width: 50%;
+    height: 200px;
+    position: absolute;
+    right: 700px;
+    top:200px;
+    transition: all 2s ease-in-out;
+    
+ }
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 20%;
+    transform: translate(-50%); 
+    transform: scale(1.2);
+    border-radius: 50%;
+}
+ .image img:hover{
+    transform: scale(1);
+}
+#about {
+    width: 100%;
+    background-color: #002;
+    padding: 100px 0;
+}
+.about-text {
+    width: 550px;
+}
+.real {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+ h2 {
+    color: azure;
+    font-size: 75px;
+    margin-bottom: 20px;
+    font-family:  'Courier New', Courier, monospace;
+    text-align: center;
+}
+.about-text h4 {
+    color: azure;
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family:serif;
+}
+.about-text p {
+    color: azure;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: serif;
+}
+button{
+    background-color: #DC00A5;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: transparent;
+    border:2px solid #DC00A5 ;
+    cursor: pointer;
+}
+
+#services{
+     background: #002;
+     width: 100%;
+     padding: 100px 0px;
+}
+.title h2 {
+    color: azure;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {  
+    width: 400px;
+    padding: 20px 30px;
+    background: #DC00A5;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 1s;
+} 
+.card:hover{
+    transform: scale(1.1);
+}
+.sap  {
+    height: 200px;
+    width: 200px;
+    color: #DC00A5;
+}
+ h4 {
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 20px;
+ }
+ .paragraph p {
+     color: azure ;
+     font-size: 17px;
+     line-height: 29px;
+     margin-bottom: 30px;
+ }
+  #contact-me {
+    background: #002;
+    width:100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #contact-me  p{
+text-align: center;
+color: azure;
+font-weight: bold;
+margin: 1px auto;
+padding: 60px;
+font-size: 25px;
+  }
+
+#contact-me a {
+    background-color: #DC00A5;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+#contact-me a:hover{
+    background-color: transparent;
+    border:2px solid #DC00A5 ;
+    cursor: pointer;
+}
+footer{
+    background: #002;
+    width: 100%;
+    height: 300px;
+    
+}
+.social {
+    display: flex;
+}
+
+h4{
+    text-align: center;
+    padding: 15px 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bottom {
+    width: 50%;
+
+}
+p{
+    color: azure;
+    font-size: 20px;
+    margin: 0 20px;
+    
+}
+.bottom-side{
+    padding: 30px;
+}
+.bottom-side img{
+    margin:5px;
+}
+
+
+/*for small devices only*/
+@media only screen and (max-width: 767px) {
+    .info {
+        margin-top: 50px;
+    }
+    nav ul li {
+        font-size: 5px;
+        padding:2px;
+    }
+    .info h1{
+font-size: 30px;
+    }
+    .image img{
+        width: 180px;
+        height: 150px;
+        margin-left: 400px;
+margin-top:-20px;
+
+    }
+    .about-text h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .real {
+        width: 600px;
+        display: inline-block;
+    }
+    .real img {
+        width: 300px;
+        margin-left: 60px;
+    }
+    .about-text h4 {
+        font-size: 20px;
+    }
+    .about-text p {
+        font-size: 15px;
+        
+        letter-spacing: 1px;
+    }
+    .title h2 {
+        font-size: 50px;
+    }
+    .box {
+        display: inline-block;
+    }
+    
+    .bottom-side img {
+        width: 30px;
+        height: 30px;
+        margin: 1px;
+        
+    }
+    .social {
+        display: inline-block;
+    }
+    .playwrite-cu-small {
+            font-size: 15px;
+        }
+    .logo{
+        font-size: 30px;
+        
+    }
+}
+
+/*for medium screen devices*/
+@media only screen and  ( min-width:768px) and (max-width:1120px){
+    .image img {
+        margin-left: 300px;
+        margin-bottom:500px;
+        width: 340px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
